@@ -1,13 +1,12 @@
 #include <iostream>
 
-
-int main() {
-   
+int main()
+{
 
     // float x = (float)5/2;
     // std::cout << x << std::endl;
 
-// # simple interest 
+    // # simple interest
 
     // int p = 1000, r=8,t=5;
     // int interest = (p*r*t)/100;
@@ -17,9 +16,6 @@ int main() {
     std::cout << jun << std::endl;
     int x = jun;
     std::cout << x << std::endl;
-
-
-
 
     return 0;
 }
