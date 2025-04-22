@@ -1,4 +1,4 @@
-//  # for loop in c++
+
 
 #include <iostream>
 
