@@ -1,1 +1,22 @@
-.vscode
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore build files
+*.exe
+*.out
+*.obj
+
+# Ignore compiled object files
+*.o
+
+# Ignore temporary files
+*.tmp
+*.log
+
+# Ignore backup files
+*.bak
+*.swp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
