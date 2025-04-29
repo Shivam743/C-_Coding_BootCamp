@@ -12,7 +12,7 @@ int main()
 
         for (int j = 0; j < i; j++)
         {
-            std::cout << "*";
+            std::cout << " " << "*" << " ";
         }
     }
     std::cout << std::endl;
@@ -25,7 +25,7 @@ int main()
 
         for (int j = 0; j < 10; j++)
         {
-            std::cout << "*";
+            std::cout << " " << "*";
         }
     }
 
