@@ -7,20 +7,17 @@ int main()
     cout << "enter the length of the array :" << endl;
     int len;
     cin >> len;
-    int evenCount = 0;
+    int sum = 0;
+    int searchElement;
     int array[len];
+    cout << "enter the element you want to search :" << endl;
     cout << "enter the element in array : " << endl;
     for (int i = 0; i < len; i++)
     {
         cin >> array[i];
-        if (array[i] % 2 == 0)
-        {
-            evenCount++;
-        }
+        sum += array[i];
     }
-
-    cout << "number of even elements : " << evenCount << endl;
-    cout << "number of odd  elements : " << len - evenCount << endl;
+    cout << "average of the elements  in array : " << sum / len << endl;
 
     return 0;
 }

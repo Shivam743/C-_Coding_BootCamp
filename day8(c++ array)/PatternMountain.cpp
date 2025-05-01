@@ -8,8 +8,21 @@ int main()
     int nsp = (N * 2) - 3;
     for (int i = 1; i <= N; i++)
     {
-        if (i != N)
+
+        if (i == N)
         {
+            for (int x = 1; x <= N; x++)
+            {
+                cout << x << "	";
+            }
+            for (int x = N - 1; x > 0; x--)
+            {
+                cout << x << "	";
+            }
+        }
+        else
+        {
+
             // loop for right part
             for (int j = 1; j <= i; j++)
             {
@@ -24,21 +37,10 @@ int main()
             // for left part
             for (int x = i; x >= 1; x--)
             {
-                cout << x << "    ";
+                cout << x << "	";
             }
         }
 
-        if (i == N)
-        {
-            for (int x = 1; x <= N; x++)
-            {
-                cout << x << "	";
-            }
-            for (int x = N - 1; x > 0; x--)
-            {
-                cout << x << "	";
-            }
-        }
         cout << endl;
     }
 
