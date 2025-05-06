@@ -1,6 +1,86 @@
 # C++ Coding Bootcamp
 
-This repository contains my C++ practice solutions organized by days.
+This repository contains my C++ practice solutions organized by days, covering fundamental C++ concepts and problem-solving exercises.
+
+## 📚 Topics Covered
+
+- C++ Basics
+  - Syntax and operators
+  - Control flow (if-else, switch)
+  - Loops (for, while)
+  - Arrays and array operations
+  - Pattern printing problems
+  - Practice problems and exercises
+
+## 📅 Day-by-Day Progress
+
+### Day 1: Introduction to C++ and Arrays
+- Basic array operations
+- Finding minimum and maximum values in arrays
+- Homework: Array manipulation exercises
+
+### Day 2: C++ Fundamentals
+- Basic syntax practice
+- Variable declarations and data types
+- Input/output operations
+
+### Day 3: Control Structures
+- If-else statements
+- Switch cases
+- Basic program flow control
+
+### Day 4: Loops and Iterations
+- For loops
+- While loops
+- Loop control statements
+
+### Day 5: Advanced Control Flow
+- Nested loops
+- Complex conditional statements
+- Problem-solving with loops
+
+### Day 6: Basic Problem Solving
+- Algorithm implementation
+- Basic programming challenges
+- Code optimization
+
+### Day 7: Advanced Problem Solving
+- Complex programming challenges
+- Multiple solution approaches
+- Code efficiency
+
+### Day 8: Arrays and Patterns
+- Array operations (array01.cpp through array06.cpp)
+- Pattern printing problems:
+  - Mountain pattern (PatternMountain.cpp)
+  - Manmohan's patterns (ManmohanLovesPatterns-I.cpp)
+  - Unique number counting (NoOfUnique.cpp)
+  - Various pattern exercises (pattren.cpp)
+
+### Day 9: Advanced Arrays
+- Multi-dimensional arrays
+- Array manipulation techniques
+- Complex array problems
+
+### Day 10: Pattern Problems
+- Advanced pattern printing
+- Number patterns
+- Character patterns
+
+### Day 11: Problem Solving
+- Complex programming challenges
+- Algorithm implementation
+- Code optimization
+
+### Day 12: Practice Session
+- Mixed problem solving
+- Previous topics revision
+- Advanced challenges
+
+### Day 13: Revision Class
+- Comprehensive review
+- Important concepts recap
+- Problem-solving strategies
 
 ## 📁 Repository Structure
 
