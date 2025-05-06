@@ -1,73 +1,72 @@
 # C++ Coding Bootcamp
 
-Welcome to my C++ Coding Bootcamp journey! This repository contains my daily progress, assignments, and projects as I learn C++ programming.
+This repository contains my C++ practice solutions organized by days.
 
-## 📁 Project Structure
+## 📁 Repository Structure
 
 ```
 C-_Coding_BootCamp/
-├── day1/              # Introduction to C++ and basic array operations
-├── day2/              # C++ fundamentals
-├── day3/              # Control structures and functions
-├── day4/              # More C++ concepts
-├── day5/              # Advanced programming concepts
-├── day6/              # Object-oriented programming basics
-├── day7/              # Classes and objects
-├── day8/              # C++ Arrays and array operations
-├── day9/              # Advanced array concepts
-├── day10/             # Data structures
-├── day11/             # Advanced topics
-├── day12/             # Project work
-├── day13/             # Revision and review
-├── HomeworkWeekOne/   # First week's homework assignments
-└── assigment2/        # Second major assignment
+├── day1/              # Basic array operations
+├── day2/              # C++ practice
+├── day3/              # C++ practice
+├── day4/              # C++ practice
+├── day5/              # C++ practice
+├── day6/              # C++ practice
+├── day7/              # C++ practice
+├── day8(c++ array)/   # Array operations and patterns
+├── day9/              # C++ practice
+├── day10/             # C++ practice
+├── day11/             # C++ practice
+├── day12/             # C++ practice
+├── day13/             # Revision class
+├── HomeworkWeekOne/   # Week 1 homework
+└── assigment2/        # Assignment 2
 ```
 
-## 🎯 Daily Progress
+## 🎯 Daily Practice
 
 ### Week 1
 - **Day 1**: Introduction to C++, basic array operations (finding min/max values)
-- **Day 2**: C++ fundamentals and basic syntax
-- **Day 3**: Control structures and functions
-- **Day 4**: More C++ programming concepts
-- **Day 5**: Advanced programming concepts
+- **Day 2**: C++ fundamentals and basic syntax practice
+- **Day 3**: Control structures practice
+- **Day 4**: More C++ programming practice
+- **Day 5**: Advanced programming practice
 
 ### Week 2
-- **Day 6**: Introduction to Object-Oriented Programming
-- **Day 7**: Classes and Objects
-- **Day 8**: C++ Arrays and array operations
-- **Day 9**: Advanced array concepts
-- **Day 10**: Data structures implementation
+- **Day 6**: Introduction to Object-Oriented Programming practice
+- **Day 7**: Classes and Objects practice
+- **Day 8**: C++ Arrays practice
+- **Day 9**: Advanced array practice
+- **Day 10**: Data structures practice
 
 ### Week 3
-- **Day 11**: Advanced C++ topics
-- **Day 12**: Project work
-- **Day 13**: Revision and review session
+- **Day 11**: Advanced C++ topics practice
+- **Day 12**: Practice questions
+- **Day 13**: Revision and review questions
 
-## 💻 Projects and Assignments
+## 💻 Practice Questions and Solutions
 
 ### Homework Week One
-Contains the first week's homework assignments focusing on:
+Contains the first week's practice questions focusing on:
 - Basic C++ syntax
 - Control structures
-- Functions
 - Array operations
 
 ### Assignment 2
-A more comprehensive assignment covering:
+A more comprehensive set of practice questions covering:
 - Advanced C++ concepts
 - Problem-solving exercises
-- Practical applications
+- Practical coding challenges
 
 ## 🛠️ Development Environment
 
 - **IDE**: Visual Studio Code
-- **Compiler**: C++ compiler (as configured in .vscode)
+- **Compiler**: C++ compiler
 - **Version Control**: Git
 
 ## 📝 Code Examples
 
-### Day 1 Example (Finding Min/Max in Array)
+### Day 1 Example (Array Operations)
 ```cpp
 #include <iostream>
 using namespace std;
@@ -88,6 +87,12 @@ int main() {
 }
 ```
 
+### Day 8 Examples (Array and Patterns)
+- Array operations (array01.cpp through array06.cpp)
+- Pattern printing (PatternMountain.cpp)
+- Unique number counting (NoOfUnique.cpp)
+- Pattern problems (ManmohanLovesPatterns-I.cpp)
+
 ## 🚀 Getting Started
 
 1. Clone this repository:
@@ -95,12 +100,12 @@ int main() {
    git clone https://github.com/yourusername/C-_Coding_BootCamp.git
    ```
 
-2. Navigate to specific day's folder to view code:
+2. Navigate to specific day's folder:
    ```bash
    cd day1  # or any other day folder
    ```
 
-3. Compile and run the code:
+3. Compile and run:
    ```bash
    g++ filename.cpp -o filename
    ./filename
@@ -115,7 +120,7 @@ int main() {
 ## 🤝 Contributing
 
 Feel free to:
-- Review the code
+- Review the solutions
 - Suggest improvements
 - Report issues
 - Share your own solutions
