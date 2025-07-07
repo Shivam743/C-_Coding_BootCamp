@@ -1,23 +1,57 @@
-# Ignore Visual Studio Code settings
+# IDE and Editor Settings
 .vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
 
-# Ignore build files
+# Build and Compilation Output
 *.exe
 *.out
 *.obj
-
-# Ignore compiled object files
 *.o
+*.dll
+*.so
+*.dylib
+*.class
+*.jar
+*.war
+*.ear
+*.apk
+*.app
 
-# Ignore temporary files
+# Temporary and Log Files
 *.tmp
 *.log
+*.pid
+*.seed
+*.pid.lock
 
-# Ignore backup files
+# Backup and Swap Files
 *.bak
 *.swp
+*~.nib
+*.swp
+*.swo
+*~
 
-# Ignore system files
+# System Files
 .DS_Store
 Thumbs.db
-output
+desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Project Specific
+output/
+build/
+dist/
+node_modules/
+.env
+.env.local
+.env.*.local
+
+# Debug Files
+*.pdb
+*.ilk
+*.dmp
+*.core
