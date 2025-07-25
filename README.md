@@ -103,26 +103,6 @@ C-_Coding_BootCamp/
 └── assigment2/        # Assignment 2
 ```
 
-## 🎯 Daily Practice
-
-### Week 1
-- **Day 1**: Introduction to C++, basic array operations (finding min/max values)
-- **Day 2**: C++ fundamentals and basic syntax practice
-- **Day 3**: Control structures practice
-- **Day 4**: More C++ programming practice
-- **Day 5**: Advanced programming practice
-
-### Week 2
-- **Day 6**: Introduction to Object-Oriented Programming practice
-- **Day 7**: Classes and Objects practice
-- **Day 8**: C++ Arrays practice
-- **Day 9**: Advanced array practice
-- **Day 10**: Data structures practice
-
-### Week 3
-- **Day 11**: Advanced C++ topics practice
-- **Day 12**: Practice questions
-- **Day 13**: Revision and review questions
 
 ## 💻 Practice Questions and Solutions
 
