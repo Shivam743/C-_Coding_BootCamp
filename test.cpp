@@ -1,10 +1,18 @@
-#include <bits/stdc++.h>
+#include <iostream>
 
 using namespace std;
 
+void sum(int &x)
+{
+  x = x + 89;
+  cout << "x = " << x << endl;
+}
+
 int main()
 {
-  int x = ceil(8.0 / 2);
-  cout << x << endl;
+  cout << "Hello, World!" << endl;
+  int x = 11;
+  sum(x);
+  cout << "x = " << x << endl;
   return 0;
 }

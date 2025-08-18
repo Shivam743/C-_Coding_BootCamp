@@ -22,7 +22,8 @@ int main()
     }
 
     cout << st.size() << endl;
-    // cout << *(st.rbegin() - 1) << endl;
+
+        // cout << *(st.rbegin() - 1) << endl;
     // auto f = st.find(5);
     int index = distance(st.begin(), st.find(10));
     cout << "index : " << index << endl;

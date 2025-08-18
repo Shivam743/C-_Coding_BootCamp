@@ -1,43 +1,33 @@
-#include <bits/stdc++.h>
-
+#include <iostream>
+#include <vector>
 using namespace std;
+
+void generateSubsequences(string input, string output, vector<string> &result, int index)
+{
+    if (index == input.length())
+    {
+        result.push_back(output); // store the generated subsequence
+        return;
+    }
+
+    // Include the current character
+    generateSubsequences(input, output + input[index], result, index + 1);
+
+    // Exclude the current character
+    generateSubsequences(input, output, result, index + 1);
+}
 
 int main()
 {
-    // right shifting the array( circurlar or normal ) k steps:
-    //
-    //
-    //
-    int len = 5, k = 2;
-    int array[len] = {1, 2, 3, 4, 5};
-    vector<int> array2(len);
+    string str = "acb";
+    vector<string> subsequences;
 
-    // for (int i = 0; i < len; i++)
-    // {
-    //     array2[(i + k) % len] = array[i];
-    // }
-    // for (auto var : array2)
-    // {
-    //     cout << var << " ";
-    // }
+    generateSubsequences(str, "", subsequences, 0);
 
-    //
-    //
-    //
-    //
-    //
-    //
-    // left shift shifting the array( circurlar or normal ) k steps:
-
-    for (int i = 0; i < len; i++)
+    cout << "All Subsequences:\n";
+    for (const string &sub : subsequences)
     {
-        array2[(i - k + len) % len] = array[i];
-        cout << (i - k + len) % len << " ";
-    }
-    cout << endl;
-    for (auto var : array2)
-    {
-        cout << var << " ";
+        cout << "\"" << sub << "\"\n";
     }
 
     return 0;

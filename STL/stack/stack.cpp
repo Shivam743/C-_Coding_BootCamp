@@ -15,5 +15,9 @@ int main()
     stk.pop();
     cout << stk.top() << endl;
 
+    // for (auto var : stk)
+    // {
+    //     cout << var << endl;
+    // }
     return 0;
 }
